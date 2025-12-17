@@ -4,7 +4,7 @@
 from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel
 
-from proyecto.routers.auth_director import authetication
+from routers.auth_director import authetication
 
 router = APIRouter(prefix="/directores", tags=["directores"])
 

@@ -1,6 +1,6 @@
-from ..db.models.pelicula import Pelicula # Modelo Pydantic para Pelicula
-from ..db.client import db_client         # Cliente de la base de datos (MongoDB)
-from ..db.schemas.pelicula import pelicula_schema, peliculas_schema # Esquemas de conversión
+from db.models.pelicula import Pelicula # Modelo Pydantic para Pelicula
+from db.client import db_client         # Cliente de la base de datos (MongoDB)
+from db.schemas.pelicula import pelicula_schema, peliculas_schema # Esquemas de conversión
 
 #fastapi dev pelicula.py
 from fastapi import APIRouter, HTTPException, status

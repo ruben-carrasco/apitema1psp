@@ -1,10 +1,10 @@
-from ..db.models.director import Director
-from ..db.client import db_client
-from ..db.schemas.director import director_schema, directores_schema
+from db.models.director import Director
+from db.client import db_client
+from db.schemas.director import director_schema, directores_schema
 
 #fastapi dev director.py
 from fastapi import APIRouter, Depends, HTTPException
-from proyecto.routers.auth_director import authetication
+from routers.auth_director import authetication
 
 from bson import ObjectId #para la id del director convertila de str a ObjectId
 
