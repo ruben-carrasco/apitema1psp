@@ -4,3 +4,4 @@ from pymongo import MongoClient
 #db_client = MongoClient()
 
 db_client = MongoClient("mongodb+srv://rubencarrasco_db_user:NZKxZKw8MT6E0gYB@cluster0.uko7sva.mongodb.net/")
+
